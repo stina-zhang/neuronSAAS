@@ -308,15 +308,4 @@
     </state>
     <state x="483" y="178" key="svn.repositoryBrowser/0.22.1280.718@0.22.1280.718" timestamp="1585016965194" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/TestCase/test_login.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
 </project>

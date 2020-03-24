@@ -124,43 +124,6 @@ class TestIndex:
         assert title_name == '账户设置'
         index.swtich_to_default()
 
-    def test_device_total(self, drivers):
-        '''首页设备总数判断'''
-        index = Index(drivers)
-        index.switch_index()
-        index.switch_to_iframe()
-        device_total_display = index.get_device_total()
-        res = operation_mysql().search_one(sql="SELECT COUNT(*) FROM device WHERE flag=0").values()
-        for values in res:
-            divice_total_sql = str(values)
-        assert divice_total_sql == device_total_display
-        index.swtich_to_default()
-
-    def test_device_online(self, drivers):
-        '''首页设备在线数判断'''
-        index = Index(drivers)
-        index.switch_to_iframe()
-        device_online_display = index.get_device_online()
-        sql = "select COUNT(*) FROM device WHERE id IN (SELECT device_id FROM device_status WHERE `status`=1 AND flag=0)"
-        res = operation_mysql().search_one(sql).values()
-        for values in res:
-            divice_online_sql = str(values)
-        assert divice_online_sql == device_online_display
-        index.swtich_to_default()
-
-    # def test_device_offline(self, drivers):
-    #     index = Index(drivers)
-    #     index.switch_index()
-    #     device_offline_display = index.get_device_online()
-    #     divice_offline_sql = operation_mysql().search_one(sql="select COUNT(*) FROM device WHERE id IN (SELECT device_id FROM device_status WHERE `status`=0 AND flag=0)")
-    #     assert device_offline_display == divice_offline_sql
-
-    # def test_device_alarm(self, drivers):
-    #     index = Index(drivers)
-    #     index.switch_index()
-    #     device_offline_display = index.get_device_online()
-    #     divice_offline_sql = operation_mysql().search_one(sql="select COUNT(*) FROM device WHERE id IN (SELECT device_id FROM device_status WHERE `alarm`=1 AND flag=0)")
-    #     assert device_offline_display == divice_offline_sql
 
 # if __name__ == '__main__':
 #     pytest.main(['test_index.py'])
