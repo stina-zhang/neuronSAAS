@@ -1,0 +1,187 @@
+{
+  "uid" : "f4a0ecab01f2c1e5",
+  "name" : "test_edit_firm",
+  "fullName" : "TestCase.test_firm.TestFirm#test_edit_firm",
+  "historyId" : "908af0a45f149ba4cf25f02a3f58888e",
+  "time" : {
+    "start" : 1584973563155,
+    "stop" : 1584973564599,
+    "duration" : 1444
+  },
+  "description" : "修改厂商名称、地址",
+  "descriptionHtml" : "<p>修改厂商名称、地址</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "open_index_firm",
+    "time" : {
+      "start" : 1584973473530,
+      "stop" : 1584973474677,
+      "duration" : 1147
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_testfirm",
+    "time" : {
+      "start" : 1584973563154,
+      "stop" : 1584973563154,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1584973464024,
+      "stop" : 1584973465310,
+      "duration" : 1286
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "open_loginhtml",
+    "time" : {
+      "start" : 1584973465310,
+      "stop" : 1584973473530,
+      "duration" : 8220
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "add_testfirm",
+    "time" : {
+      "start" : 1584973561799,
+      "stop" : 1584973563154,
+      "duration" : 1355
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "修改厂商名称、地址",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4f149245947cdd8a",
+      "name" : "log",
+      "source" : "4f149245947cdd8a.txt",
+      "type" : "text/plain",
+      "size" : 647354
+    }, {
+      "uid" : "d06737f6e30d0fea",
+      "name" : "stderr",
+      "source" : "d06737f6e30d0fea.txt",
+      "type" : "text/plain",
+      "size" : 2704
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "delete_testfirm::0",
+    "time" : {
+      "start" : 1584973564607,
+      "stop" : 1584973566524,
+      "duration" : 1917
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1584973569767,
+      "stop" : 1584973569855,
+      "duration" : 88
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "hello"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_firm"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFirm"
+  }, {
+    "name" : "host",
+    "value" : "StinadeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "24484-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_firm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "hello" ]
+  },
+  "source" : "f4a0ecab01f2c1e5.json",
+  "parameterValues" : [ ]
+}

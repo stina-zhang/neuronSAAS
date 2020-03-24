@@ -1,0 +1,49 @@
+增加:
+  type: xpath
+  value: "//*[@class='l-btn-icon icon-add']"
+修改:
+  type: xpath
+  value: "//*[@class='l-btn-icon icon-edit']"
+删除:
+  type: xpath
+  value: "//*[@class='l-btn-icon icon-remove']"
+名称输入框:
+  type: xpath
+  value: "//td[@field='name']/div/table/tbody/tr/td/input"
+编码输入框:
+  type: xpath
+  value: "//td[@field='code']/div/table/tbody/tr/td/span/input"
+备注输入框:
+  type: xpath
+  value: "//td[@field='remark']/div/table/tbody/tr/td/input"
+权限选择框:
+  type: xpath
+  value: "//table[@class='datagrid-btable']/tbody/tr[last()]/td[@field='permissionDesc']/div"
+全选:
+  type: xpath
+  value: "//div[@class='datagrid-header-check']"
+权限第一行:
+  type: xpath
+  value: "//div[@class='datagrid-view2']/div[2]/table/tbody/tr[@id='datagrid-row-r2-2-0']"
+权限第十行:
+  type: xpath
+  value: "//div[@class='datagrid-view2']/div[2]/table/tbody/tr[@id='datagrid-row-r2-2-9']"
+保存:
+  type: xpath
+  value: "//div[@class='datagrid-body']/table/tbody/tr[last()]/td[last()]/div/a[1]"
+撤销:
+  type: xpath
+  value: "//div[@class='datagrid-body']/table/tbody/tr[last()]/td[last()]/div/a[2]"
+最后一行:
+  type: xpath
+  value: "//table[@class='datagrid-btable']/tbody/tr[last()]"
+
+ifram标题:
+  type: xpath
+  value: "//div[@class='panel-title']"
+确定:
+  type: xpath
+  value: "//span[contains(text(), '确定')]"
+取消:
+  type: xpath
+  value: "//span[contains(text(), '取消')]"

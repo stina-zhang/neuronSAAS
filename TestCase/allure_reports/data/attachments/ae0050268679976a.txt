@@ -1,0 +1,12 @@
+INFO	2020-03-23 22:24:27,591	[basepage.py:53]	打开网页：http://47.98.47.243:8083/login.html
+INFO	2020-03-23 22:24:27,838	[basepage.py:90]	在元素{'type': 'id', 'value': 'loginName'}中输入13800138001
+INFO	2020-03-23 22:24:28,938	[basepage.py:90]	在元素{'type': 'id', 'value': 'loginPsd'}中输入123456
+INFO	2020-03-23 22:24:30,021	[basepage.py:103]	点击元素{'type': 'class_name', 'value': 'submit'}
+INFO	2020-03-23 22:24:33,670	[basepage.py:103]	点击元素{'type': 'id', 'value': 'firm'}
+INFO	2020-03-23 22:24:35,215	[basepage.py:119]	切换iframe
+INFO	2020-03-23 22:24:35,379	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//*[@class='l-btn-icon icon-add']"}
+INFO	2020-03-23 22:24:35,500	[basepage.py:90]	在元素{'type': 'xpath', 'value': "//td[@field='name']/div/table/tbody/tr/td/input"}中输入测试厂商1
+INFO	2020-03-23 22:24:35,596	[basepage.py:90]	在元素{'type': 'xpath', 'value': "//td[@field='code']/div/table/tbody/tr/td/span/input"}中输入6
+INFO	2020-03-23 22:24:35,703	[basepage.py:90]	在元素{'type': 'xpath', 'value': "//td[@field='address']/div/table/tbody/tr/td/input"}中输入测试厂商测试地址
+INFO	2020-03-23 22:24:35,840	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//div[@class='datagrid-body']/table/tbody/tr[last()]/td[last()]/div/a[2]"}
+INFO	2020-03-23 22:24:36,068	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//span[contains(text(), '确定')]"}

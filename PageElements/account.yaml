@@ -1,0 +1,34 @@
+确定:
+  type: xpath
+  value: "//span[contains(text(), '确定')]"
+取消:
+  type: xpath
+  value: "//span[contains(text(), '取消')]"
+保存:
+  type: xpath
+  value: "//table/tbody/tr[last()]/td//a"
+密码输入框:
+  type: id
+  value: "_easyui_textbox_input7"
+昵称输入框:
+  type: id
+  value: "_easyui_textbox_input3"
+联系电话输入框:
+  type: id
+  value: "_easyui_textbox_input4"
+邮箱输入框:
+  type: id
+  value: "_easyui_textbox_input5"
+回调url输入框:
+  type: id
+  value: "_easyui_textbox_input6"
+性别选择框:
+  type: xpath
+  value: "//span[@class='radiobutton inputbox']"
+密码显示:
+  type: xpath
+  value: "//a[@class='textbox-icon passwordbox-open']"
+退出:
+  type: xpath
+  value: "//li[contains(text(), '退出')]"
+

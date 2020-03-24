@@ -1,0 +1,9 @@
+INFO	2020-03-23 22:25:01,868	[basepage.py:119]	切换iframe
+INFO	2020-03-23 22:25:01,999	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//*[@class='l-btn-icon icon-add']"}
+INFO	2020-03-23 22:25:02,080	[basepage.py:90]	在元素{'type': 'xpath', 'value': "//td[@field='name']/div/table/tbody/tr/td/input"}中输入
+INFO	2020-03-23 22:25:02,156	[basepage.py:90]	在元素{'type': 'xpath', 'value': "//td[@field='address']/div/table/tbody/tr/td/input"}中输入
+INFO	2020-03-23 22:25:02,241	[basepage.py:90]	在元素{'type': 'xpath', 'value': "//td[@field='code']/div/table/tbody/tr/td/span/input"}中输入7
+INFO	2020-03-23 22:25:02,342	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//div[@class='datagrid-body']/table/tbody/tr[last()]/td[last()]/div/a[1]"}
+INFO	2020-03-23 22:25:05,414	[basepage.py:119]	切换iframe
+INFO	2020-03-23 22:25:05,615	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//div[@class='datagrid-body']/table/tbody/tr[last()]/td[last()]/div/a[2]"}
+INFO	2020-03-23 22:25:06,713	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//span[contains(text(), '确定')]"}

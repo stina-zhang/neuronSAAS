@@ -1,0 +1,21 @@
+INFO	2020-03-23 22:26:02,324	[basepage.py:119]	切换iframe
+INFO	2020-03-23 22:26:02,442	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//*[@class='l-btn-icon icon-add']"}
+INFO	2020-03-23 22:26:02,547	[basepage.py:90]	在元素{'type': 'xpath', 'value': "//td[@field='name']/div/table/tbody/tr/td/input"}中输入测试厂商
+INFO	2020-03-23 22:26:02,658	[basepage.py:90]	在元素{'type': 'xpath', 'value': "//td[@field='address']/div/table/tbody/tr/td/input"}中输入测试厂商测试地址
+INFO	2020-03-23 22:26:02,751	[basepage.py:90]	在元素{'type': 'xpath', 'value': "//td[@field='code']/div/table/tbody/tr/td/span/input"}中输入30
+INFO	2020-03-23 22:26:02,890	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//div[@class='datagrid-body']/table/tbody/tr[last()]/td[last()]/div/a[1]"}
+INFO	2020-03-23 22:26:02,978	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//span[contains(text(), '确定')]"}
+INFO	2020-03-23 22:26:03,151	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//span[contains(text(), '确定')]"}
+INFO	2020-03-23 22:26:03,681	[basepage.py:119]	切换iframe
+INFO	2020-03-23 22:26:03,765	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//table[@class='datagrid-btable']/tbody/tr[last()]"}
+INFO	2020-03-23 22:26:03,893	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//*[@class='l-btn-icon icon-edit']"}
+INFO	2020-03-23 22:26:03,993	[basepage.py:90]	在元素{'type': 'xpath', 'value': "//td[@field='name']/div/table/tbody/tr/td/input"}中输入修改测试厂商1
+INFO	2020-03-23 22:26:04,096	[basepage.py:90]	在元素{'type': 'xpath', 'value': "//td[@field='address']/div/table/tbody/tr/td/input"}中输入修改测试厂商地址1
+INFO	2020-03-23 22:26:04,224	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//div[@class='datagrid-body']/table/tbody/tr[last()]/td[last()]/div/a[1]"}
+INFO	2020-03-23 22:26:04,316	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//span[contains(text(), '确定')]"}
+INFO	2020-03-23 22:26:04,536	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//span[contains(text(), '确定')]"}
+INFO	2020-03-23 22:26:05,132	[basepage.py:119]	切换iframe
+INFO	2020-03-23 22:26:05,220	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//table[@class='datagrid-btable']/tbody/tr[last()]"}
+INFO	2020-03-23 22:26:05,334	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//*[@class='l-btn-icon icon-remove']"}
+INFO	2020-03-23 22:26:05,424	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//span[contains(text(), '确定')]"}
+INFO	2020-03-23 22:26:06,521	[basepage.py:103]	点击元素{'type': 'xpath', 'value': "//span[contains(text(), '确定')]"}

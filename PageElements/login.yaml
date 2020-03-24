@@ -1,0 +1,15 @@
+用户名输入框:
+  type: id
+  value: "loginName"
+密码输入框:
+  type: id
+  value: "loginPsd"
+登录框:
+  type: class_name
+  value: "submit"
+登录提示:
+  type: xpath
+  value: "//body/div[3]/div"
+用户名:
+  type: id
+  value: "myName"

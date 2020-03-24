@@ -1,0 +1,7 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61083/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:225 Starting new HTTP connection (1): 127.0.0.1:61083
+DEBUG    urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:61083 "POST /session HTTP/1.1" 200 689
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61083/session/620c04e48e53983d59ac4eb4614a4b14/window/maximize {}
+DEBUG    urllib3.connectionpool:connectionpool.py:437 http://127.0.0.1:61083 "POST /session/620c04e48e53983d59ac4eb4614a4b14/window/maximize HTTP/1.1" 200 50
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

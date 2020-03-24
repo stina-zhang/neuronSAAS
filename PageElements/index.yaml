@@ -1,0 +1,77 @@
+用户名:
+  type: id
+  value: "myName"
+头像:
+  type: id
+  value: "myAvatar"
+首页:
+    type: id
+    value: "main"
+设备管理:
+  type: id
+  value: "device"
+消息列表:
+  type: id
+  value: "message"
+反馈信息:
+  type: id
+  value: "feedback"
+产品管理:
+  type: id
+  value: "product"
+产品能力管理:
+  type: id
+  value: "product_ability"
+厂商管理:
+  type: id
+  value: "firm"
+代理商管理:
+  type: id
+  value: "agency"
+角色管理:
+  type: id
+  value: "role"
+权限管理:
+  type: id
+  value: "permission"
+账号管理:
+  type: id
+  value: "account"
+ifram标题:
+  type: xpath
+  value: "//div[@class='panel-title']"
+设备总量:
+  type: id
+  value: "device_total"
+设备在线量:
+  type: id
+  value: "device_online"
+设备离线量:
+  type: id
+  value: "device_offline"
+设备异常量:
+  type: id
+  value: "device_alarm"
+设备日增量:
+  type: id
+  value: "widget_device_inc_today"
+设备日活跃量:
+  type: id
+  value: "widget_device_act_today"
+设备活跃总量:
+  type: id
+  value: "widget_device_total"
+用户日增量:
+  type: id
+  value: "widget_user_inc_today"
+用户日活跃量:
+  type: id
+  value: "widget_user_act_today"
+用户活跃总量:
+  type: id
+  value: "widget_user_total"
+
+
+
+
+

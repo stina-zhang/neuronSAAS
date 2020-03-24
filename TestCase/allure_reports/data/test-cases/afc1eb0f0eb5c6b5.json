@@ -1,0 +1,179 @@
+{
+  "uid" : "afc1eb0f0eb5c6b5",
+  "name" : "test_add_firm_inputerror[ -7-test address]",
+  "fullName" : "TestCase.test_firm.TestFirm#test_add_firm_inputerror",
+  "historyId" : "49eb0e813f4577b892e6ccd9c3f46d78",
+  "time" : {
+    "start" : 1584976546869,
+    "stop" : 1584976553305,
+    "duration" : 6436
+  },
+  "description" : "新增厂商异常,厂商名称和厂商代码不能为空,名称和地址不超过20个字符，编码不超过1000",
+  "descriptionHtml" : "<p>新增厂商异常,厂商名称和厂商代码不能为空,名称和地址不超过20个字符，编码不超过1000</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1584976526244,
+      "stop" : 1584976528543,
+      "duration" : 2299
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "open_loginhtml",
+    "time" : {
+      "start" : 1584976528544,
+      "stop" : 1584976538037,
+      "duration" : 9493
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "open_index_firm",
+    "time" : {
+      "start" : 1584976538038,
+      "stop" : 1584976539120,
+      "duration" : 1082
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "新增厂商异常,厂商名称和厂商代码不能为空,名称和地址不超过20个字符，编码不超过1000",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "68f7438550215264",
+      "name" : "log",
+      "source" : "68f7438550215264.txt",
+      "type" : "text/plain",
+      "size" : 206462
+    }, {
+      "uid" : "4ff50b281bfd78ea",
+      "name" : "stderr",
+      "source" : "4ff50b281bfd78ea.txt",
+      "type" : "text/plain",
+      "size" : 1139
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1584976625949,
+      "stop" : 1584976626041,
+      "duration" : 92
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "hello"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_firm"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFirm"
+  }, {
+    "name" : "host",
+    "value" : "StinadeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "25347-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_firm"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "add_firm_address",
+    "value" : "'test address'"
+  }, {
+    "name" : "add_firm_code",
+    "value" : "'7'"
+  }, {
+    "name" : "add_firm_name",
+    "value" : "' '"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "69f64c73ca36a2f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1584973482396,
+        "stop" : 1584973488685,
+        "duration" : 6289
+      }
+    }, {
+      "uid" : "6e63e71f25c034db",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('open_loginhtml', <SubRequest 'open_index_firm' for <Function test_add_firm_inputerror[ -7-test address]>>)",
+      "time" : {
+        "start" : 1584973296751,
+        "stop" : 1584973296751,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "52c1e1795f1d2bb",
+      "status" : "broken",
+      "statusDetails" : "_pytest.fixtures.FixtureLookupError: ('open_loginhtml', <SubRequest 'open_index_firm' for <Function test_add_firm_inputerror[ -7-test address]>>)",
+      "time" : {
+        "start" : 1584973220827,
+        "stop" : 1584973220827,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "hello" ]
+  },
+  "source" : "afc1eb0f0eb5c6b5.json",
+  "parameterValues" : [ "'test address'", "'7'", "' '" ]
+}

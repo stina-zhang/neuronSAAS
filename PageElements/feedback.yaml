@@ -1,0 +1,24 @@
+ifram标题:
+  type: xpath
+  value: "//div[@class='panel-title']"
+确定:
+  type: xpath
+  value: "//span[contains(text(), '确定')]"
+取消:
+  type: xpath
+  value: "//span[contains(text(), '取消')]"
+回复:
+  type: xpath
+  value: "//div[@class='datagrid-body']/table/tbody/tr[last()]/td[last()]/div/a[1]"
+删除:
+  type: xpath
+  value: "//div[@class='datagrid-body']/table/tbody/tr[last()]/td[last()]/div/a[2]"
+最后一行:
+  type: xpath
+  value: "//table[@class='datagrid-btable']/tbody/tr[last()]"
+回复输入框:
+  type: xpath
+  value: "//input[@class='messager-input']"
+回复内容:
+  type: xpath
+  value: "//div[@class='datagrid-body']/table/tbody/tr[last()]/td[@field='replyMsg']/div"

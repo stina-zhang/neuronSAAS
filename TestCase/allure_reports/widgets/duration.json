@@ -1,0 +1,181 @@
+[ {
+  "uid" : "e36a939a91fc1014",
+  "name" : "test_add_firm_inputerror[test firm--test address]",
+  "time" : {
+    "start" : 1584976553318,
+    "stop" : 1584976559691,
+    "duration" : 6373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce6136a4701b3b21",
+  "name" : "test_add_firm[!@#$%^&*()-7-test address]",
+  "time" : {
+    "start" : 1584976612979,
+    "stop" : 1584976615427,
+    "duration" : 2448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33a09b97eaae26db",
+  "name" : "test_add_firm[测试厂商-7-test address]",
+  "time" : {
+    "start" : 1584976604430,
+    "stop" : 1584976606016,
+    "duration" : 1586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42370963f3159469",
+  "name" : "test_add_firm[测试厂商测试厂商测试厂商测试厂商测试厂商-7-test address]",
+  "time" : {
+    "start" : 1584976616480,
+    "stop" : 1584976617964,
+    "duration" : 1484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b9cfc256a59595",
+  "name" : "test_add_firm_inputerror[-7-test address]",
+  "time" : {
+    "start" : 1584976540464,
+    "stop" : 1584976546855,
+    "duration" : 6391
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e16353db5e81e2b5",
+  "name" : "test_add_firm_roolback",
+  "time" : {
+    "start" : 1585011702594,
+    "stop" : 1585011703924,
+    "duration" : 1330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec1932bfda3d2c22",
+  "name" : "test_del_firm",
+  "time" : {
+    "start" : 1584976624233,
+    "stop" : 1584976625936,
+    "duration" : 1703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "741192d405b50412",
+  "name" : "test_add_firm[111-7-test address]",
+  "time" : {
+    "start" : 1584976610238,
+    "stop" : 1584976611904,
+    "duration" : 1666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "826103734a0186b4",
+  "name" : "test_add_firm_inputerror[test firm-7-厂家地址厂家地址厂家地址厂家地址厂家地址厂]",
+  "time" : {
+    "start" : 1584976597823,
+    "stop" : 1584976604417,
+    "duration" : 6594
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "374f95c1c4ca65c8",
+  "name" : "test_add_firm_inputerror[test firm--]",
+  "time" : {
+    "start" : 1584976572204,
+    "stop" : 1584976578553,
+    "duration" : 6349
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9952a0365fd63d43",
+  "name" : "test_add_firm_inputerror[-7-]",
+  "time" : {
+    "start" : 1584976565969,
+    "stop" : 1584976572195,
+    "duration" : 6226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afc1eb0f0eb5c6b5",
+  "name" : "test_add_firm_inputerror[ -7-test address]",
+  "time" : {
+    "start" : 1584976546869,
+    "stop" : 1584976553305,
+    "duration" : 6436
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2db324f3cbe17d",
+  "name" : "test_add_firm_inputerror[--]",
+  "time" : {
+    "start" : 1584976578565,
+    "stop" : 1584976584859,
+    "duration" : 6294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4157ee98a3e6eae5",
+  "name" : "test_edit_firm",
+  "time" : {
+    "start" : 1584976620592,
+    "stop" : 1584976621993,
+    "duration" : 1401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52d6b42638df73da",
+  "name" : "test_add_firm_inputerror[智能厂家智能厂家智能厂家智能厂家智能厂家智-7-test address]",
+  "time" : {
+    "start" : 1584976584868,
+    "stop" : 1584976591400,
+    "duration" : 6532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fec358f331a8b44f",
+  "name" : "test_add_firm_inputerror[test-1000-test address]",
+  "time" : {
+    "start" : 1584976591411,
+    "stop" : 1584976597813,
+    "duration" : 6402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "572d3462f8327efa",
+  "name" : "test_add_firm_inputerror[--test address]",
+  "time" : {
+    "start" : 1584976559703,
+    "stop" : 1584976565958,
+    "duration" : 6255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e532a9da4cad1ae1",
+  "name" : "test_add_firm[t-7-test address]",
+  "time" : {
+    "start" : 1584976607144,
+    "stop" : 1584976608832,
+    "duration" : 1688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
