@@ -1,15 +1,16 @@
 用户名输入框:
-  type: id
-  value: "loginName"
+  type: xpath
+  value: //input[@type="text"]
 密码输入框:
-  type: id
-  value: "loginPsd"
+  type: xpath
+  value: //input[@type="password"]
 登录框:
   type: class_name
-  value: "submit"
+  value: "login-bg"
 登录提示:
+  type: class_name
+  value: "el-message__content"
+不再显示提示框:
   type: xpath
-  value: "//body/div[3]/div"
-用户名:
-  type: id
-  value: "myName"
+  value: //span[text()="不再显示"]
+

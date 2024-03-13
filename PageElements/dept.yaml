@@ -1,0 +1,54 @@
+新建:
+  type: xpath
+  value: "//button[@class='el-button mt20']"
+查询:
+  type: xpath
+  value: "//*[@id='app']/div/div[2]/div[2]/div/div[1]/div[1]/div/div[6]/button[1]"
+重置:
+  type: xpath
+  value: "//*[@id='app']/div/div[2]/div[2]/div/div[1]/div[1]/div/div[6]/button[2]"
+科室名称输入框:
+  type: xpath
+  value: "//input[@class='el-input__inner' and @rows='3']"
+所属平台选择框:
+  type: xpath
+  value: "//div[@class='el-dialog__body']/form/div[1]/div"
+所属平台选择项:
+  type: xpath
+  value: "/html/body/div[2]/div[7]/div/div/div[1]/ul/li[2]"
+所属机构选择框:
+  type: xpath
+  value: "//div[@class='el-dialog__body']/form/div[2]/div"
+所属机构选择项:
+  type: xpath
+  value: "/html/body/div[2]/div[8]/div/div/div[1]/ul/li[8]"
+科室类型选择框:
+  type: xpath
+  value: "//div[@class='el-dialog__body']/form/div[4]/div"
+科室类型选择项:
+  type: xpath
+  value: "/html/body/div[2]/div[9]/div/div/div[1]/ul/li[1]"
+新建科室名称输入框:
+  type: xpath
+  value: "//div[@class='el-dialog__body']/form/div[3]/div/div/div/input"
+保存:
+  type: xpath
+  value: "//*[@class='el-dialog__footer']/span/button[2]"
+取消:
+  type: xpath
+  value: "//*[@class='el-dialog__footer']/span/button[1]"
+消息提示:
+  type: xpath
+  value: "//p[@class='el-message__content']"
+删除:
+  type: xpath
+  value: "//table/tbody/tr[1]/td[9]/div/button[3]"
+科室名称:
+  type: xpath
+  value: "//table/tbody/tr[1]/td[3]/div"
+科室状态:
+  type: xpath
+  value: "//table/tbody/tr[1]/td[6]/div"
+确定删除:
+  type: xpath
+  value: "//footer[@class='el-dialog__footer']/button[2]"

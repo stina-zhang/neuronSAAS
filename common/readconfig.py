@@ -1,4 +1,4 @@
-#!/usr/bin/env python 
+#!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
 import sys
@@ -8,6 +8,7 @@ import settings
 import configparser
 
 HOST = 'HOST'
+Base_Url = "Base_Url"
 
 
 class Config:
@@ -29,16 +30,15 @@ class Config:
         with open(self.config_path, 'w') as f:
             self.config.write(f)
 
-    @property
-    def url(self):
-        return self._get(HOST, HOST)
 
-    @url.setter
-    def url(self, value):
-        self._set(HOST, HOST, value)
+    @property
+    def baseurl(self):
+        return self._get(HOST, Base_Url)
+
+    # @url.setter
+    # def url(self, value):
+    #     self._set(HOST, HOST, value)
 
 
 conf = Config()
 
-if __name__ == '__main__':
-    print(conf.url)

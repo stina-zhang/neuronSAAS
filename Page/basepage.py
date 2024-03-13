@@ -8,6 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support.select import Select
 from selenium import webdriver
 from utils.log import log
 import time
@@ -122,6 +123,10 @@ class WebPage:
         '''获取当前的text'''
         return self.findelement(locator).text
 
+    def isElementAttribute(self, locator):
+        '''获取当前的attribute'''
+        return self.findelement(locator).get_attribute("textContent")
+
     @property
     def getSource(self):
         """获取页面源代码"""
@@ -151,6 +156,8 @@ class WebPage:
         '''刷新页面F5'''
         self.driver.refresh()
         self.driver.implicitly_wait(30)
+
+
 
 
 # if __name__ == "__main__":

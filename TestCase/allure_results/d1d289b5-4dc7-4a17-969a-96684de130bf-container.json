@@ -1,1 +1,0 @@
-{"uuid": "8206884b-c1fe-4ba5-9679-6a05de02f71a", "children": ["1da32c36-40a4-4526-b3eb-d2c45cce770a"], "befores": [{"name": "delete_testfirm", "status": "passed", "start": 1584976616478, "stop": 1584976616478}], "afters": [{"name": "delete_testfirm::0", "status": "passed", "start": 1584976617966, "stop": 1584976619010}], "start": 1584976616478, "stop": 1584976619010}

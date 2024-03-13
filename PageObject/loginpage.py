@@ -5,9 +5,6 @@ import sys
 sys.path.append('.')
 from Page.basepage import WebPage, sleep
 from common.readelement import Element
-from common.readconfig import conf
-import time
-from selenium import webdriver
 
 login = Element('login')
 class LoginPage(WebPage):
@@ -22,11 +19,6 @@ class LoginPage(WebPage):
         self.input_text(login.密码输入框, content)
         sleep(1)
 
-    # @property
-    # def imagine(self):
-        # """搜索联想"""
-        # return [x.text for x in self.findelements(search.搜索候选)]
-
     def click_login(self):
         """点击登录按钮"""
         self.is_click(login.登录框)
@@ -36,19 +28,12 @@ class LoginPage(WebPage):
         """获取登录错误文本"""
         return self.isElementText(login.登录提示)
 
-    def get_username(self):
-        """获取登录用户名"""
-        return self.isElementText(login.用户名)
+    def click_message(self):
+        """点击提示框按钮"""
+        self.is_click(login.不再显示提示框)
+        sleep(1)
 
-# if __name__ == '__main__':
-#     driver = webdriver.Chrome()
-#     login1 = LoginPage(driver)
-#     login1.get_url(conf.url)
-#     login1.input_username('test2')
-#     login1.input_password('123456')
-#     login1.click_login()
-#     print(login1.error_message())
-#     print('123')
+
 
 
 

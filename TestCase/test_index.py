@@ -1,129 +1,62 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
 
-import sys
+import sys,os
 sys.path.append('.')
 import pytest
-from PageObject.loginpage import LoginPage
 from PageObject.index import Index
-from common.readconfig import conf
-from utils.log import log
-import yaml
-from ddt import ddt, data, unpack, file_data
 import time
-from selenium.webdriver.support.ui import WebDriverWait
-from common.connect_db import operation_mysql
+import allure
 
+@pytest.mark.run(order=1)
+@allure.feature("首页切换测试")
 class TestIndex:
-    @pytest.fixture(scope='class', autouse=True)
-    def open_loginhtml(self, drivers):
-        self.login = LoginPage(drivers)
-        self.login.get_url(conf.url)
-        self.login.input_username('13800138001')
-        self.login.input_password('123456')
-        self.login.click_login()
-        time.sleep(2)
-
-    def test_switch_device(self, drivers):
-        '''切换到设备管理页'''
+    @allure.story("切换到类型管理机构类型管理页面")
+    def test_switch_typeManage(self, drivers):
+        '''切换到类型管理机构类型管理页面'''
         index = Index(drivers)
-        index.switch_device()
+        index.switch_typeManage()
+        index.switch_tenentTypeManage()
+        assert "机构类型名称" in index.get_text_tenentTypeName()
         time.sleep(1)
-        index.switch_to_iframe()
-        title_name = index.ifram_text()
-        assert title_name == '设备列表'
-        index.swtich_to_default()
 
-    def test_switch_message(self, drivers):
-        '''切换到消息列表页'''
+    @allure.story("切换到运营管理机构管理页面")
+    def test_switch_staticeManage(self, drivers):
+        '''切换到运营管理机构管理页面'''
         index = Index(drivers)
-        index.switch_message()
+        index.switch_operationMange()
+        index.switch_tenantMange()
         time.sleep(1)
-        index.switch_to_iframe()
-        title_name = index.ifram_text()
-        assert title_name == '消息列表'
-        index.swtich_to_default()
+        assert "机构列表" in index.get_text_tenantList()
+        time.sleep(1)
 
-    def test_switch_feedback(self, drivers):
-        '''切换到用户反馈页'''
+    @allure.story("切换到系统管理平台管理页面")
+    def test_switch_systemManage(self, drivers):
+        '''切换到系统管理平台管理页面'''
         index = Index(drivers)
-        index.switch_feedback()
+        index.switch_systemManage()
+        index.switch_platMange()
         time.sleep(1)
-        index.switch_to_iframe()
-        title_name = index.ifram_text()
-        assert title_name == '反馈信息列表'
-        index.swtich_to_default()
+        assert "平台编号" in index.get_text_platNumber()
+        time.sleep(1)
 
-    def test_switch_product(self, drivers):
-        '''切换到产品管理页'''
+    @allure.story("切换到统计机构检查数据页面")
+    def test_switch_statics(self, drivers):
+        '''切换到统计机构检查数据页面'''
         index = Index(drivers)
-        index.switch_product()
+        index.switch_statics()
+        index.switch_tenantCheckData()
+        assert "机构检查数据统计" in index.get_text_statice()
         time.sleep(1)
-        index.switch_to_iframe()
-        title_name = index.ifram_text()
-        assert title_name == '产品列表'
-        index.swtich_to_default()
 
-    def test_switch_ability(self, drivers):
-        '''切换到产品能力管理页'''
-        index = Index(drivers)
-        index.switch_product_ability()
-        time.sleep(1)
-        index.switch_to_iframe()
-        title_name = index.ifram_text()
-        assert title_name == '产品能力列表'
-        index.swtich_to_default()
-
-    def test_switch_firm(self, drivers):
-        '''切换到厂商管理页'''
-        index = Index(drivers)
-        index.switch_firm()
-        time.sleep(1)
-        index.switch_to_iframe()
-        title_name = index.ifram_text()
-        assert title_name == '厂商列表'
-        index.swtich_to_default()
-
-    def test_switch_agency(self, drivers):
-        '''切换到代理商页'''
-        index = Index(drivers)
-        index.switch_agency()
-        time.sleep(1)
-        index.switch_to_iframe()
-        title_name = index.ifram_text()
-        assert title_name == '子账户列表'
-        index.swtich_to_default()
-
-    def test_switch_role(self, drivers):
-        '''切换到角色管理页'''
-        index = Index(drivers)
-        index.switch_role()
-        time.sleep(1)
-        index.switch_to_iframe()
-        title_name = index.ifram_text()
-        assert title_name == '角色列表'
-        index.swtich_to_default()
-
-    def test_switch_permission(self, drivers):
-        '''切换到权限管理页'''
-        index = Index(drivers)
-        index.switch_peimission()
-        time.sleep(1)
-        index.switch_to_iframe()
-        title_name = index.ifram_text()
-        assert title_name == '权限列表'
-        index.swtich_to_default()
-
-    def test_switch_account(self, drivers):
-        '''切换到用户管理页'''
-        index = Index(drivers)
-        index.switch_account()
-        time.sleep(1)
-        index.switch_to_iframe()
-        title_name = index.ifram_text()
-        assert title_name == '账户设置'
-        index.swtich_to_default()
+    # @allure.story("切换到科室管理页面")
+    # def test_switch_deptManage(self, drivers):
+    #     '''切换到科室管理页面'''
+    #     index = Index(drivers)
+    #     index.switch_operationMange()
+    #     index.switch_deptMange()
+    #     assert "科室名称" in index.get_text_deptName()
+    #     time.sleep(1)
 
 
-# if __name__ == '__main__':
-#     pytest.main(['test_index.py'])
+

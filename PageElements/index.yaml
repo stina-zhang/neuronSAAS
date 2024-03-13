@@ -1,77 +1,117 @@
-用户名:
-  type: id
-  value: "myName"
-头像:
-  type: id
-  value: "myAvatar"
-首页:
-    type: id
-    value: "main"
-设备管理:
-  type: id
-  value: "device"
-消息列表:
-  type: id
-  value: "message"
-反馈信息:
-  type: id
-  value: "feedback"
-产品管理:
-  type: id
-  value: "product"
-产品能力管理:
-  type: id
-  value: "product_ability"
-厂商管理:
-  type: id
-  value: "firm"
-代理商管理:
-  type: id
-  value: "agency"
-角色管理:
-  type: id
-  value: "role"
-权限管理:
-  type: id
-  value: "permission"
-账号管理:
-  type: id
-  value: "account"
-ifram标题:
+系统管理:
   type: xpath
-  value: "//div[@class='panel-title']"
-设备总量:
-  type: id
-  value: "device_total"
-设备在线量:
-  type: id
-  value: "device_online"
-设备离线量:
-  type: id
-  value: "device_offline"
-设备异常量:
-  type: id
-  value: "device_alarm"
-设备日增量:
-  type: id
-  value: "widget_device_inc_today"
-设备日活跃量:
-  type: id
-  value: "widget_device_act_today"
-设备活跃总量:
-  type: id
-  value: "widget_device_total"
-用户日增量:
-  type: id
-  value: "widget_user_inc_today"
-用户日活跃量:
-  type: id
-  value: "widget_user_act_today"
-用户活跃总量:
-  type: id
-  value: "widget_user_total"
-
-
-
-
-
+  value: //span[text()="系统管理"]
+平台管理:
+  type: xpath
+  value: //span[text()="平台管理"]
+角色管理:
+  type: xpath
+  value: //span[text()="角色管理"]
+账号管理:
+  type: xpath
+  value: //span[text()="账号管理"]
+运营管理:
+  type: xpath
+  value: //span[text()="运营管理"]
+机构管理:
+  type: xpath
+  value: //span[text()="机构管理"]
+科室管理:
+  type: xpath
+  value: //span[text()="科室管理"]
+医生管理:
+  type: xpath
+  value: //span[text()="医生管理"]
+医生角色管理:
+  type: xpath
+  value: //span[text()="医生角色管理"]
+医生账号管理:
+  type: xpath
+  value: //span[text()="医生账号管理"]
+患者管理:
+  type: xpath
+  value: //span[text()="患者管理"]
+设备管理:
+  type: xpath
+  value: //span[text()="设备管理"]
+类型管理:
+  type: xpath
+  value: //span[text()="类型管理"]
+机构类型管理:
+  type: xpath
+  value: //span[text()="机构类型管理"]
+科室类型管理:
+  type: xpath
+  value: //span[text()="科室类型管理"]
+医生角色类型管理:
+  type: xpath
+  value: //span[text()="医生角色类型管理"]
+设备类型管理:
+  type: xpath
+  value: //span[text()="设备类型管理"]
+统计:
+  type: xpath
+  value: //span[text()="统计"]
+机构检查数据:
+  type: xpath
+  value: //span[text()="机构检查数据"]
+机构分析数据:
+  type: xpath
+  value: //span[text()="机构分析数据"]
+医生工作量:
+  type: xpath
+  value: //span[text()="医生工作量"]
+物流运单:
+  type: xpath
+  value: //span[text()="物流运单"]
+平台管理文本:
+  type: xpath
+  value: //*[@id="app"]/div/div[1]/div/div[2]/div[1]/div[2]/div/span
+平台编号:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[1]/div[1]
+所属机构:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[2]/div/div/div/div[1]/div[3]/div/div[1]/div/table/tbody/tr[1]/td[8]/div
+用户名:
+  type: xpath
+  value: //span[@role="button"]
+角色名称:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[2]/div[1]
+账号名称:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[1]/div[1]
+机构列表:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[2]/div/div[1]/div[1]/div[1]/span
+科室名称:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[1]/div[1]
+医生角色名称:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[3]/div[1]
+医生账号名称:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[1]/div[1]
+姓名:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[1]/div[1]
+设备类型:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[1]/div[1]
+机构类型名称:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[1]/div[1]
+科室类型名称:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[1]/div[1]
+医生角色类型名称:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[1]/div[1]
+设备类型名称:
+  type: xpath
+  value: //*[@id="app"]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[1]/div[1]
+统计文本:
+  type: xpath
+  value: //*[@id="tab-first"]

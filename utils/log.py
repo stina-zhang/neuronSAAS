@@ -46,6 +46,3 @@ class Logger:
 
 
 log = Logger().logger
-
-# if __name__ == '__main__':
-#     log.info('你好')
