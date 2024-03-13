@@ -1,7 +1,0 @@
-INFO	2024-03-13 14:40:50,839	[basepage.py:54]	打开网页：https://sleepa.neuronsxc.com/#
-INFO	2024-03-13 14:40:51,213	[basepage.py:91]	在元素{'type': 'xpath', 'value': '//input[@type="text"]'}中输入root
-INFO	2024-03-13 14:40:52,349	[basepage.py:91]	在元素{'type': 'xpath', 'value': '//input[@type="password"]'}中输入yyds@neurons
-INFO	2024-03-13 14:40:53,425	[basepage.py:104]	点击元素{'type': 'class_name', 'value': 'login-bg'}
-INFO	2024-03-13 14:40:56,520	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="不再显示"]'}
-INFO	2024-03-13 14:40:58,093	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="类型管理"]'}
-INFO	2024-03-13 14:40:59,158	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="机构类型管理"]'}

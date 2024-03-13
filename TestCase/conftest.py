@@ -36,7 +36,7 @@ def open_loginhtml(drivers):
     login = LoginPage(drivers)
     login.get_url(conf.baseurl)
     login.input_username('root')
-    login.input_password('yyds@neurons')
+    login.input_password('************')
     login.click_login()
     login.click_message()
     time.sleep(0.5)

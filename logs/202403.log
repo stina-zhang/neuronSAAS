@@ -91,3 +91,90 @@ INFO	2024-03-13 14:41:28,368	[basepage.py:104]	点击元素{'type': 'xpath', 'va
 INFO	2024-03-13 14:41:28,483	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[2]"}
 INFO	2024-03-13 14:41:30,675	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//table/tbody/tr[1]/td[9]/div/button[3]'}
 INFO	2024-03-13 14:41:31,048	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//footer[@class='el-dialog__footer']/button[2]"}
+INFO	2024-03-13 16:56:43,261	[basepage.py:54]	打开网页：https://sleepa.neuronsxc.com/#
+INFO	2024-03-13 16:56:43,832	[basepage.py:91]	在元素{'type': 'xpath', 'value': '//input[@type="text"]'}中输入root
+INFO	2024-03-13 16:56:44,976	[basepage.py:91]	在元素{'type': 'xpath', 'value': '//input[@type="password"]'}中输入yyds@neurons
+INFO	2024-03-13 16:56:46,055	[basepage.py:104]	点击元素{'type': 'class_name', 'value': 'login-bg'}
+INFO	2024-03-13 16:56:49,148	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="不再显示"]'}
+INFO	2024-03-13 16:56:50,723	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="类型管理"]'}
+INFO	2024-03-13 16:56:51,795	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="机构类型管理"]'}
+INFO	2024-03-13 16:56:53,905	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="运营管理"]'}
+INFO	2024-03-13 16:56:54,976	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="机构管理"]'}
+INFO	2024-03-13 16:56:58,089	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="系统管理"]'}
+INFO	2024-03-13 16:56:59,218	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="平台管理"]'}
+INFO	2024-03-13 16:57:02,322	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="统计"]'}
+INFO	2024-03-13 16:57:03,388	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="机构检查数据"]'}
+INFO	2024-03-13 16:57:05,476	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="运营管理"]'}
+INFO	2024-03-13 16:57:06,538	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="科室管理"]'}
+INFO	2024-03-13 16:57:07,712	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//button[@class='el-button mt20']"}
+INFO	2024-03-13 16:57:08,874	[basepage.py:91]	在元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[3]/div/div/div/input"}中输入test_deptname
+INFO	2024-03-13 16:57:08,986	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[1]/div"}
+INFO	2024-03-13 16:57:09,130	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[7]/div/div/div[1]/ul/li[2]'}
+INFO	2024-03-13 16:57:09,678	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[4]/div"}
+INFO	2024-03-13 16:57:09,846	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[9]/div/div/div[1]/ul/li[1]'}
+INFO	2024-03-13 16:57:09,947	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[2]"}
+INFO	2024-03-13 16:57:10,097	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[1]"}
+INFO	2024-03-13 16:57:10,512	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//button[@class='el-button mt20']"}
+INFO	2024-03-13 16:57:11,643	[basepage.py:91]	在元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[3]/div/div/div/input"}中输入test_deptname
+INFO	2024-03-13 16:57:11,801	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[2]/div"}
+INFO	2024-03-13 16:57:12,418	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[8]/div/div/div[1]/ul/li[8]'}
+INFO	2024-03-13 16:57:12,508	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[4]/div"}
+INFO	2024-03-13 16:57:13,116	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[9]/div/div/div[1]/ul/li[1]'}
+INFO	2024-03-13 16:57:13,198	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[2]"}
+INFO	2024-03-13 16:57:13,327	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[1]"}
+INFO	2024-03-13 16:57:13,736	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//button[@class='el-button mt20']"}
+INFO	2024-03-13 16:57:14,893	[basepage.py:91]	在元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[3]/div/div/div/input"}中输入test_deptname
+INFO	2024-03-13 16:57:14,985	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[1]/div"}
+INFO	2024-03-13 16:57:15,096	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[7]/div/div/div[1]/ul/li[2]'}
+INFO	2024-03-13 16:57:15,528	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[2]/div"}
+INFO	2024-03-13 16:57:15,638	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[8]/div/div/div[1]/ul/li[8]'}
+INFO	2024-03-13 17:00:23,686	[basepage.py:54]	打开网页：https://sleepa.neuronsxc.com/#
+INFO	2024-03-13 17:00:24,105	[basepage.py:91]	在元素{'type': 'xpath', 'value': '//input[@type="text"]'}中输入root
+INFO	2024-03-13 17:00:25,245	[basepage.py:91]	在元素{'type': 'xpath', 'value': '//input[@type="password"]'}中输入yyds@neurons
+INFO	2024-03-13 17:00:26,323	[basepage.py:104]	点击元素{'type': 'class_name', 'value': 'login-bg'}
+INFO	2024-03-13 17:00:29,404	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="不再显示"]'}
+INFO	2024-03-13 17:00:30,982	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="类型管理"]'}
+INFO	2024-03-13 17:00:32,059	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="机构类型管理"]'}
+INFO	2024-03-13 17:00:34,154	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="运营管理"]'}
+INFO	2024-03-13 17:00:35,226	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="机构管理"]'}
+INFO	2024-03-13 17:00:38,324	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="系统管理"]'}
+INFO	2024-03-13 17:00:39,463	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="平台管理"]'}
+INFO	2024-03-13 17:00:42,554	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="统计"]'}
+INFO	2024-03-13 17:00:43,627	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="机构检查数据"]'}
+INFO	2024-03-13 17:00:45,712	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="运营管理"]'}
+INFO	2024-03-13 17:00:46,781	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="科室管理"]'}
+INFO	2024-03-13 17:00:47,894	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//button[@class='el-button mt20']"}
+INFO	2024-03-13 17:00:49,088	[basepage.py:91]	在元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[3]/div/div/div/input"}中输入test_deptname
+INFO	2024-03-13 17:00:49,193	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[1]/div"}
+INFO	2024-03-13 17:00:49,817	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[7]/div/div/div[1]/ul/li[2]'}
+INFO	2024-03-13 17:00:50,325	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[4]/div"}
+INFO	2024-03-13 17:00:50,933	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[9]/div/div/div[1]/ul/li[1]'}
+INFO	2024-03-13 17:00:51,013	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[2]"}
+INFO	2024-03-13 17:00:51,143	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[1]"}
+INFO	2024-03-13 17:00:51,539	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//button[@class='el-button mt20']"}
+INFO	2024-03-13 17:00:52,680	[basepage.py:91]	在元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[3]/div/div/div/input"}中输入test_deptname
+INFO	2024-03-13 17:00:52,769	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[2]/div"}
+INFO	2024-03-13 17:00:52,904	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[8]/div/div/div[1]/ul/li[8]'}
+INFO	2024-03-13 17:00:53,012	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[4]/div"}
+INFO	2024-03-13 17:00:53,607	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[9]/div/div/div[1]/ul/li[1]'}
+INFO	2024-03-13 17:00:53,686	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[2]"}
+INFO	2024-03-13 17:00:53,825	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[1]"}
+INFO	2024-03-13 17:00:54,265	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//button[@class='el-button mt20']"}
+INFO	2024-03-13 17:00:55,453	[basepage.py:91]	在元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[3]/div/div/div/input"}中输入test_deptname
+INFO	2024-03-13 17:00:55,550	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[1]/div"}
+INFO	2024-03-13 17:00:56,215	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[7]/div/div/div[1]/ul/li[2]'}
+INFO	2024-03-13 17:00:56,741	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[2]/div"}
+INFO	2024-03-13 17:00:57,357	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[8]/div/div/div[1]/ul/li[8]'}
+INFO	2024-03-13 17:00:57,443	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[2]"}
+INFO	2024-03-13 17:00:57,554	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[1]"}
+INFO	2024-03-13 17:00:57,956	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//button[@class='el-button mt20']"}
+INFO	2024-03-13 17:00:59,120	[basepage.py:91]	在元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[3]/div/div/div/input"}中输入test_deptname14
+INFO	2024-03-13 17:00:59,202	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[1]/div"}
+INFO	2024-03-13 17:00:59,799	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[7]/div/div/div[1]/ul/li[2]'}
+INFO	2024-03-13 17:01:00,261	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[2]/div"}
+INFO	2024-03-13 17:01:00,861	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[8]/div/div/div[1]/ul/li[8]'}
+INFO	2024-03-13 17:01:01,004	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[4]/div"}
+INFO	2024-03-13 17:01:01,606	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[9]/div/div/div[1]/ul/li[1]'}
+INFO	2024-03-13 17:01:01,689	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[2]"}
+INFO	2024-03-13 17:01:03,830	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//table/tbody/tr[1]/td[9]/div/button[3]'}
+INFO	2024-03-13 17:01:04,226	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//footer[@class='el-dialog__footer']/button[2]"}

@@ -1,2 +1,0 @@
-INFO	2024-03-13 14:41:30,675	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//table/tbody/tr[1]/td[9]/div/button[3]'}
-INFO	2024-03-13 14:41:31,048	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//footer[@class='el-dialog__footer']/button[2]"}
