@@ -1,0 +1,2 @@
+INFO	2024-03-13 14:41:09,650	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="统计"]'}
+INFO	2024-03-13 14:41:10,714	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '//span[text()="机构检查数据"]'}

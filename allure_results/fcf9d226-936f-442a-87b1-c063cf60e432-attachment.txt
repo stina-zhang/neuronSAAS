@@ -1,0 +1,8 @@
+INFO	2024-03-13 14:41:18,431	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//button[@class='el-button mt20']"}
+INFO	2024-03-13 14:41:19,563	[basepage.py:91]	在元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[3]/div/div/div/input"}中输入test_deptname
+INFO	2024-03-13 14:41:19,757	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[2]/div"}
+INFO	2024-03-13 14:41:20,429	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[8]/div/div/div[1]/ul/li[8]'}
+INFO	2024-03-13 14:41:20,518	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//div[@class='el-dialog__body']/form/div[4]/div"}
+INFO	2024-03-13 14:41:21,127	[basepage.py:104]	点击元素{'type': 'xpath', 'value': '/html/body/div[2]/div[9]/div/div/div[1]/ul/li[1]'}
+INFO	2024-03-13 14:41:21,206	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[2]"}
+INFO	2024-03-13 14:41:21,330	[basepage.py:104]	点击元素{'type': 'xpath', 'value': "//*[@class='el-dialog__footer']/span/button[1]"}
